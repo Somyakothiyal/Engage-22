@@ -10,7 +10,7 @@ import numpy as np
 
 
 def identify_face():
-    # Out_fold = r'C:\Users\gurvinder1.singh\Downloads\Facial-Similarity-with-Siamese-Networks-in-Pytorch-master\data\output_fold'
+
     Out_fold = r'D:\pull\Facial-Similarity-with-Siamese-Networks-in-Pytorch-master\output_fold'
 
     # load the known faces and embeddings
