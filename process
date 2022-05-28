@@ -1,0 +1,20 @@
+#Process to develop a features
+Clone the repo git clone repo.git
+Have yarn and node installed
+Go to the folder cd website
+Go to branch develop
+git checkout develop
+git pull
+Create a new branch git checkout -b fix/website-homepage-feature
+Install the project dependencies yarn
+Start your local server yarn dev:xxx for website or yarn start:xxx for app or yarn start:xxx for boarding (xxx usually being your name)
+git checkout develop // Go to develop branch
+git pull // Get latest develop changes
+git checkout -b fix/mybranch // Create a new branch
+git status // To know which files have changed
+git add . // Add all the changed files for upcoming commit
+git commit -m "fix(website): Fix related stuff"
+git push -u // 
+// Github - Create your Pull-request
+// It is already public
+// Merge it yourself
